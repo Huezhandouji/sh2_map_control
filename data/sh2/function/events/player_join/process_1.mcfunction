@@ -1,0 +1,1 @@
+trigger team_select_trigger set -1

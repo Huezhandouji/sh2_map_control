@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "book",
+                    "components": {"custom_data": {"use_event":{"team_select0":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/select_team/team_select_dialog1"
+    }
+}

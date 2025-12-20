@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "stick",
+                    "components": {"custom_data": {"use_event":{"team_select1":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/select_team/use_ready_item"
+    }
+}

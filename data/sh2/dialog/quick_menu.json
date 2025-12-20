@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "快捷操作",
+    "actions": [
+        {
+            "label": "传送到主战场",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 5012 6 5017"
+            }
+        },
+        {
+            "label": "回家",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 0 51 0"
+            }
+        }
+    ]
+}
