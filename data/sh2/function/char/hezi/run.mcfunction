@@ -1,0 +1,1 @@
+function sh2:char/hezi/main_weapon

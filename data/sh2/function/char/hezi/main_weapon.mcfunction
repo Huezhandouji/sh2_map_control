@@ -1,0 +1,3 @@
+execute unless items entity @s hotbar.0 diamond_hoe run clear @s diamond_hoe
+execute unless items entity @s hotbar.0 diamond_hoe anchored eyes run kill @e[distance=..5,type=item,nbt={"Item":{"id":"minecraft:diamond_hoe"}}]
+execute unless items entity @s hotbar.0 diamond_hoe run item replace entity @s hotbar.0 with diamond_hoe[attribute_modifiers=[{"type":"attack_damage","id":"base_attack_damage","operation":"add_value","amount":-100,"slot":"mainhand"},{"type":"attack_speed","amount":-3,"operation":"add_value","id":"base_attack_speed","slot":"mainhand"}]]
