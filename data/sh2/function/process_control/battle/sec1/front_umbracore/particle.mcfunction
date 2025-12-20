@@ -1,3 +1,4 @@
+#临时当作影庭的圆形粒子
 execute unless entity @e[tag=front_umbracore_1_particle,type=armor_stand] run summon armor_stand ~ ~1000 ~ {"Tags":["front_umbracore_1_particle"]}
 kill @e[type=armor_stand,tag=front_umbracore_1_particle,scores={loopcnt=180}]
 execute as @e[type=armor_stand,tag=front_umbracore_1_particle] at @s positioned ^ ^-1000 ^5 run particle dust{"color":8070342,"scale":2}
