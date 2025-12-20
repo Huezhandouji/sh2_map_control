@@ -12,10 +12,11 @@ team modify shadow prefix [{"text":"[shadow]","color":"dark_purple"}]
 team modify hunter prefix [{"text":"[hunter]","color":"yellow"}]
 team modify spectator prefix [{"text":"(spectator)","color":"gray"}]
 scoreboard objectives add player_display dummy player_display
-scoreboard objectives setdisplay list player_display
 
 scoreboard objectives add team_select_trigger trigger team_selecte_trigger
 
 scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
+
+scoreboard objectives add loopcnt dummy loopcnt
 tellraw @a [{"text":">>地图配套数据包已经加载","color":"yellow"}]
