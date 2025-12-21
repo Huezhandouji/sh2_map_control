@@ -1,0 +1,1 @@
+trigger char_selected set 0
