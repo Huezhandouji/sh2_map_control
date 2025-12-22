@@ -1,3 +1,7 @@
 execute unless items entity @s hotbar.0 piglin_head run clear @s piglin_head
 execute unless items entity @s hotbar.0 piglin_head run kill @e[type=item,nbt={"Item":{"id":"minecraft:piglin_head"}},distance=..10]
 execute unless items entity @s hotbar.0 piglin_head run item replace entity @s hotbar.0 with piglin_head[consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},custom_data={"use_event":{"shadow_deploy_select":true}}]
+
+#根据trigger选择角色
+execute as @a[scores={trigger_char_selected=1..100}] run scoreboard players operation @s char_selected = @s trigger_char_selected
+scoreboard players set @a[scores={trigger_char_selected=1..100}] trigger_char_selected 0

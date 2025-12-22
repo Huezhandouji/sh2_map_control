@@ -19,4 +19,8 @@ scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
 
 scoreboard objectives add loopcnt dummy loopcnt
+
+scoreboard objectives add in_battle dummy in_battle
+scoreboard objectives add trigger_char_selected trigger trigger_char_selected
+scoreboard objectives add char_selected dummy char_selected
 tellraw @a [{"text":">>地图配套数据包已经加载","color":"yellow"}]
