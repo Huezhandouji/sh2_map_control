@@ -1,6 +1,6 @@
 #部署
 #影
-execute as @a[team=shadow,scores={in_battle=0}] at @s run function sh2:process_control/battle/sec1/deploy/shadow/main
+execute as @a[team=shadow,scores={in_battle=0}] at @s run function sh2:process_control/battle/sec1/deploy/shadow
 
 
 

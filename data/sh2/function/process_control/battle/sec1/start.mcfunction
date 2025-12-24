@@ -5,7 +5,6 @@ summon text_display 71 74 -127 {"text":[{"text":"§4猎影人"}],"billboard":"ce
 summon text_display 83 74 -128 {"text":[{"text":"§e防守据点"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","2"]}
 summon text_display 84 73.5 -128 {"text":[{"text":"§7[未建成前线影庭]"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","2_"]}
 summon text_display 83 74 -134 {"text":[{"text":"§2部署点"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","3"]}
-summon text_display 83 73.5 -134 {"text":[{"text":"§d[右键部署]"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","3_"]}
 
 summon text_display 71 74 -134 {"text":[{"text":"§7后方区域"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","4"]}
 summon text_display 71 74 -138 {"text":[{"text":"§7后方区域"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","5"]}

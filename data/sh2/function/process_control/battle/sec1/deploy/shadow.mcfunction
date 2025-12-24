@@ -1,0 +1,1 @@
+function sh2:process_control/battle/char_select/shadow

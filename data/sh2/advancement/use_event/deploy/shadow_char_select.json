@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "sh2:process_control/battle/sec1/deploy/shadow/show_char_select_dialog"
+        "function": "sh2:process_control/battle/char_select/shadow_interface"
     }
 }
