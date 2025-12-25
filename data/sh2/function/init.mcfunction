@@ -22,6 +22,7 @@ scoreboard objectives add team_select_trigger trigger team_selecte_trigger
 #角色系统
 scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
+
 #用于实现循环的计数
 scoreboard objectives add loopcnt dummy loopcnt
 #战斗部分
@@ -29,6 +30,11 @@ scoreboard objectives add loopcnt dummy loopcnt
 scoreboard objectives add in_battle dummy in_battle
 #/影选角色
 scoreboard objectives add trigger_shadow_select_char trigger trigger_shadow_select_char
+#/选角色公用的
+scoreboard objectives add page_menu_select_char dummy page_menu_select_char
+scoreboard objectives add ex_selected dummy ex_selected
+#/猎影人选角色
+scoreboard objectives add trigger_hunter_select_char trigger trigger_hunter_select_char
 #/选择的角色
 scoreboard objectives add char_selected dummy char_selected
 tellraw @a [{"text":">>地图配套数据包已经加载","color":"yellow"}]

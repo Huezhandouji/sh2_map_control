@@ -22,10 +22,8 @@ summon text_display 67 75 -230 {"text":[{"text":"§7影-主庭"}],"billboard":"c
 execute as @e[tag=sec1_hunter,type=text_display] run data modify entity @s transformation.scale set value [2,2,2]
 
 scoreboard players set hunter_ticket system 50
-scoreboard players set hunter_stronghold_health system 0
-scoreboard players set hunter_base_build system 0
-scoreboard players set shadow_front_umbracore_health system 0
-scoreboard players add shadow_front_umbracore_build system 0
+scoreboard players set hunter_stronghold_occupy_value system 0
+scoreboard players set shadow_front_umbracore_destory_value system 100
 bossbar add ticket_display ticket_display
 bossbar set ticket_display visible true
 bossbar set ticket_display players @a
@@ -39,3 +37,6 @@ bossbar set shadow_display color white
 bossbar set shadow_display visible true
 bossbar set shadow_display players @a
 bossbar set shadow_display max 100
+
+#据点状态，1代表有影庭，2有升级的影庭，3空置没有人和影的东西，4有人的地基, 5完全占领
+scoreboard players set point_status system 1

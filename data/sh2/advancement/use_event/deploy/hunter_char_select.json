@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "player_head",
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_select":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/char_select/hunter/click_open_interface"
+    }
+}
