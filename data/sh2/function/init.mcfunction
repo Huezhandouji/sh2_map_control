@@ -23,9 +23,15 @@ scoreboard objectives add team_select_trigger trigger team_selecte_trigger
 scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
 
+
+scoreboard objectives add conditions dummy conditions
 #用于实现循环的计数
 scoreboard objectives add loopcnt dummy loopcnt
 #战斗部分
+#/战斗菜单trigger
+scoreboard objectives add trigger_battle_menu trigger trigger_battle_menu
+#/建造倒计时
+scoreboard objectives add build_countdown dummy build_countdown
 #/是否在战场里
 scoreboard objectives add in_battle dummy in_battle
 #/影选角色

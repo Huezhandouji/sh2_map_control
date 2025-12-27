@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "compass",
+                    "components": {"custom_data": {"use_event":{"hunter_compass_menu":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec1/compass_menu/hunter/clicked"
+    }
+}

@@ -24,19 +24,20 @@ execute as @e[tag=sec1_hunter,type=text_display] run data modify entity @s trans
 scoreboard players set hunter_ticket system 50
 scoreboard players set hunter_stronghold_occupy_value system 0
 scoreboard players set shadow_front_umbracore_destory_value system 100
-bossbar add ticket_display ticket_display
-bossbar set ticket_display visible true
-bossbar set ticket_display players @a
-bossbar set ticket_display color white
-bossbar set ticket_display style progress
-bossbar set ticket_display max 100
-bossbar set ticket_display value 100
+scoreboard players set shadow_main_umbracore_destory_value system 500
+bossbar add hunter_display hunter_display
+bossbar set hunter_display visible true
+bossbar set hunter_display players @a
+bossbar set hunter_display color yellow
+bossbar set hunter_display style progress
+bossbar set hunter_display max 100
+bossbar set hunter_display value 100
 
 bossbar add shadow_display shadow_display
-bossbar set shadow_display color white
+bossbar set shadow_display color purple
 bossbar set shadow_display visible true
 bossbar set shadow_display players @a
-bossbar set shadow_display max 100
+bossbar set shadow_display max 200
 
 #据点状态，1代表有影庭，2有升级的影庭，3空置没有人和影的东西，4有人的地基, 5完全占领
 scoreboard players set point_status system 1
