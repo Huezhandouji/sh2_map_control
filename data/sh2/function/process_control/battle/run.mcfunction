@@ -1,1 +1,2 @@
 execute if score battle_phase system matches 1 run function sh2:process_control/battle/sec1/run
+function sh2:process_control/battle/respawn/run

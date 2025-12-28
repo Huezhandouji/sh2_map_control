@@ -44,3 +44,9 @@ scoreboard objectives add trigger_hunter_select_char trigger trigger_hunter_sele
 #/选择的角色
 scoreboard objectives add char_selected dummy char_selected
 tellraw @a [{"text":">>地图配套数据包已经加载","color":"yellow"}]
+#/用于判断重生的死亡判断
+scoreboard objectives add respawn_dead deathCount respawn_dead
+#/重生倒计时
+scoreboard objectives add respawn_countdown dummy respawn_countdown
+#/猎影人提前部署按钮的trigger
+scoreboard objectives add trigger_hunter_fast_back_deploy trigger trigger_hunter_fast_back_deploy

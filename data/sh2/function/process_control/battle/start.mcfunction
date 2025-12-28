@@ -4,12 +4,6 @@ tp @a[team=shadow] 77 72 -123
 
 
 
-
-
-
-
-
-
 #猎影人
 tp @a[team=hunter] 76 70 -221
 
