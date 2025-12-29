@@ -15,11 +15,12 @@ execute as @e[tag=sec1_shadow,type=text_display,tag=!2_,tag=!3_] run data modify
 kill @e[type=text_display,tag=sec1_hunter]
 summon text_display 58 72 -218 {"text":[{"text":"§a部署点"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","1"]}
 summon text_display 69 72 -218 {"text":[{"text":"§e进攻据点"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","2"]}
+summon text_display 71 71.5 -218 {"text":[{"text":"§c前线影庭§7[未升级]\n§c进攻"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","2_"]}
 summon text_display 69 72 -224 {"text":[{"text":"§c影-部署点"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","3"]}
 summon text_display 57 72 -224 {"text":[{"text":"§7影-后方区域"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","4"]}
 summon text_display 58 72 -228 {"text":[{"text":"§7影-后方区域"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","5"]}
 summon text_display 67 75 -230 {"text":[{"text":"§7影-主庭"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","6"]}
-execute as @e[tag=sec1_hunter,type=text_display] run data modify entity @s transformation.scale set value [2,2,2]
+execute as @e[tag=sec1_hunter,type=text_display,tag=!2_,tag=!3_] run data modify entity @s transformation.scale set value [2,2,2]
 
 #开始的猎影人票数，前线影庭和主庭的摧毁值，猎影人占领值
 scoreboard players set hunter_ticket system 50
