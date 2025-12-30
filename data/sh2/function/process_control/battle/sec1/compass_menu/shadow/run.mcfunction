@@ -11,7 +11,7 @@ execute if entity @s[tag=!player_execute_close_char_menu,scores={trigger_battle_
 tag @s[tag=player_execute_close_char_menu] remove player_execute_close_char_menu
 
 #重建影庭
-execute positioned 5323 8 5373 if entity @s[distance=..10,scores={trigger_battle_menu=1}] run scoreboard players add @s conditions 1
+execute positioned -243.5 6 73.5 if entity @s[distance=..10,scores={trigger_battle_menu=1}] run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=1}] if score point_status system matches 3 run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=1}] unless entity @a[scores={build_countdown=0..}] run scoreboard players add @s conditions 1
 execute as @s[scores={conditions=3,trigger_battle_menu=1}] at @s run function sh2:process_control/battle/sec1/compass_menu/shadow/start_rebuild_umbracore
@@ -19,7 +19,7 @@ tellraw @s[scores={conditions=0..2,trigger_battle_menu=1}] [{"text":"§c无法�
 scoreboard players set @s conditions 0
 
 #升级影庭
-execute positioned 5323 8 5373 if entity @s[distance=..10,scores={trigger_battle_menu=2}] run scoreboard players add @s conditions 1
+execute positioned -243.5 6 73.5 if entity @s[distance=..10,scores={trigger_battle_menu=2}] run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=2}] if score point_status system matches 1 run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=2}] unless entity @a[scores={build_countdown=0..}] run scoreboard players add @s conditions 1
 execute as @s[scores={conditions=3,trigger_battle_menu=2}] at @s run function sh2:process_control/battle/sec1/compass_menu/shadow/start_upgrade_umbracore

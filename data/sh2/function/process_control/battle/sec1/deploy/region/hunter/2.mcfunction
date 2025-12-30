@@ -1,20 +1,22 @@
-advancement revoke @s only sh2:use_event/deploy/sec1/shadow/3
+advancement revoke @s only sh2:use_event/deploy/sec1/hunter/2
 #没有选择角色的话就return
 execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"§c>>你需要先选择角色和EX技能配置"}]
 
 #如果函数还没有结束，意味着选择了角色
 #应用角色 然后传送
 
-spreadplayers -199.5 -38.5 0 20 under 11 false @s
+spreadplayers -243.5 73.5 0 50 under 11 false @s
 title @s times 0 40 0
 title @s title ""
 title @s subtitle "§a部署成功"
-tellraw @s [{"text":"§d#####部署成功#####"}]
-tellraw @s [{"text":"§a你在§e后方部署点[暗影教堂]§a部署"}]
+tellraw @s [{"text":"§e#####部署成功#####"}]
+tellraw @s [{"text":"§a你在§e前线地基[小型社区]附近§a部署"}]
 function sh2:process_control/battle/sec1/deploy/region/show_char_deployed_text
+tellraw @s [{"text":"§c部署花费2个TICKET"}]
 tellraw @s [{"text":"§a立即加入战斗!"}]
-tellraw @s [{"text":"§d#################"}]
+tellraw @s [{"text":"§e#################"}]
 scoreboard players operation @s apply_character = @s char_selected
 
+scoreboard players remove hunter_ticket system 2
 scoreboard players set @s in_battle 1
 clear @s

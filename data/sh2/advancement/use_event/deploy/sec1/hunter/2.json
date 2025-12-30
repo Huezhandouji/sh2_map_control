@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "stone_bricks",
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_2":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec1/deploy/region/hunter/2"
+    }
+}

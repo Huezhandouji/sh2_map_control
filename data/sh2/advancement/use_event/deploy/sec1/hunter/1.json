@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "quartz_block",
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_1":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec1/deploy/region/hunter/1"
+    }
+}
