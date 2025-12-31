@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "sh2:true",
+        "sh2:normal",
+        "out_of_world"
+    ]
+}

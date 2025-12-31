@@ -1,0 +1,7 @@
+{
+    "message_id": "xxx",
+    "death_message_type": "default",
+    "effects": "hurt",
+    "exhaustion": 0,
+    "scaling": "never"
+}

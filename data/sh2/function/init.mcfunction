@@ -23,11 +23,25 @@ scoreboard objectives add team_select_trigger trigger team_selecte_trigger
 scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
 
-
+#时钟，用来一些需要间隔不止1tick的指令
+scoreboard objectives add clock dummy clock
+#在一些情况下判断好几个条件
 scoreboard objectives add conditions dummy conditions
 #用于实现循环的计数
 scoreboard objectives add loopcnt dummy loopcnt
 #战斗部分
+#/特殊值 双方的san 猎影人的能量 影的进化
+scoreboard objectives add ENERGY dummy ENERGY
+scoreboard objectives add ENERGY_MAX dummy ENERGY_MAX
+scoreboard objectives add SAN dummy SAN
+scoreboard objectives add SAN_MAX dummy SAN_MAX
+scoreboard objectives add san_punish_countdown dummy san_punish_countdown
+scoreboard objectives add EVOLUTION dummy EVOLUTION
+#/特殊效果倒计时
+#//眩晕
+scoreboard objectives add faint_time dummy faint_time
+#/血量
+scoreboard objectives add health health health
 #/战斗菜单trigger
 scoreboard objectives add trigger_battle_menu trigger trigger_battle_menu
 #/建造倒计时
