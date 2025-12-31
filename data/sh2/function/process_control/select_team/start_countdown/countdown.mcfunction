@@ -7,6 +7,7 @@ scoreboard players set const calculate 20
 scoreboard players operation a calculate %= const calculate
 execute if score a calculate matches 0 run scoreboard players operation b calculate = game_start_countdown system
 execute if score a calculate matches 0 run scoreboard players operation b calculate /= const calculate
+execute if score a calculate matches 0 run title @a times 0 40 0
 execute if score a calculate matches 0 run title @a title [{"text":"§e对局将在"},{"score":{"name":"b","objective":"calculate"},"color":"dark_purple"},{"text":"§e秒后开启"}]
 execute if score a calculate matches 0 as @a at @s run playsound ui.button.click master @s ~ ~ ~
 scoreboard players reset a calculate

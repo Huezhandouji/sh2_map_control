@@ -1,3 +1,4 @@
+#重建影庭，逻辑和建造地基一样
 scoreboard players operation a calculate = @s build_countdown
 scoreboard players set num calculate 20
 scoreboard players operation a calculate %= num calculate

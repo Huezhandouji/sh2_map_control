@@ -17,3 +17,5 @@ scoreboard players set @a trigger_shadow_select_char 0
 scoreboard players set @a char_selected 0
 
 scoreboard players set @a char_selected 0
+
+scoreboard players set @a apply_character -1
