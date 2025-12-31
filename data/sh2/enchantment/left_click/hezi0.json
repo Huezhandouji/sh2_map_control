@@ -4,7 +4,7 @@
             {
                 "effect": {
                     "type": "run_function",
-                    "function": "sh2:char/hezi/main_weapon_attack"
+                    "function": "sh2:char/hezi/main_weapon/main_weapon_attack"
                 }
             }
         ]

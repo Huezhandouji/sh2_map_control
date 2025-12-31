@@ -22,7 +22,7 @@ scoreboard objectives add team_select_trigger trigger team_selecte_trigger
 #角色系统
 scoreboard objectives add apply_character dummy apply_charactor
 scoreboard objectives add character dummy character
-
+scoreboard objectives add uid dummy uid
 #时钟，用来一些需要间隔不止1tick的指令
 scoreboard objectives add clock dummy clock
 #在一些情况下判断好几个条件

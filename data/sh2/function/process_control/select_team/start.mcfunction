@@ -5,3 +5,7 @@ summon text_display -3.5 51.5 -24.5 {"Tags":["team_display"],"alignment":"center
 team join spectator @a
 
 scoreboard players set game_process system 1
+spawnpoint @a 0 51 0
+
+bossbar set hunter_display visible false
+bossbar set shadow_display visible false
