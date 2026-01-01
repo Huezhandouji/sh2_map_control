@@ -18,5 +18,3 @@ scoreboard players set @s character 0
 scoreboard players set @s conditions 0
 scoreboard players set @s ex_selected 0
 
-scoreboard players add uid_new system 1
-scoreboard players operation @s uid = uid_new system

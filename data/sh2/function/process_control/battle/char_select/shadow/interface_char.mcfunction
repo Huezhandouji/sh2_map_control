@@ -19,3 +19,4 @@ tellraw @s [{"text":"§c[取消选择]","hover_event":{"action":"show_text","val
 #1001关闭菜单
 tellraw @s [{"text":"§e[关闭菜单]","hover_event":{"action":"show_text","value":"§e关闭这个菜单"},"click_event":{"action":"run_command","command":"trigger trigger_shadow_select_char set 1001"}}]
 tellraw @s [{"text":"§6#################\n"}]
+tag @s remove self
