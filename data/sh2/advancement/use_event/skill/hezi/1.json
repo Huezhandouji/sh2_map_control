@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "blaze_powder",
+                    "components": {"custom_data": {"use_event":{"skill_hezi_1":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/hezi/skill_1/use"
+    }
+}
