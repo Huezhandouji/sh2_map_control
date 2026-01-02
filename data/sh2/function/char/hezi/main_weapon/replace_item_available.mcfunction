@@ -1,3 +1,8 @@
+#普攻可用时替换成正常物品
+#sh2:left_click/hezi/skill0 这是一个定义的附魔，效果是当使用有这个附魔的锄头来戳刺攻击(这个东西通过物品堆叠组件添加到锄头上piercing_weapon={"deals_knockback":true,"dismounts":true})，执行main_weapon_attack函数
+#去sh2/enchantment里面可以找到这个附魔
+#物品都加上了一个属性修饰符attribute_modifiers=[{"type":"attack_damage","id":"base_attack_damage","operation":"add_value","amount":-100,"slot":"mainhand"},{"type":"attack_speed","amount":-3,"operation":"add_value","id":"base_attack_speed","slot":"mainhand"}]
+#意思是让这个物品打不了人，但是我设置了戳刺攻击的附魔，打人通过指令实现
 clear @s diamond_hoe[enchantments={"sh2:left_click/hezi/skill0":1}]
 kill @e[distance=..5,type=item,nbt={"Item":{"id":"minecraft:diamond_hoe"}}]
 execute if score @s ENERGY matches 30.. run item replace entity @s hotbar.0 with diamond_hoe[attribute_modifiers=[{"type":"attack_damage","id":"base_attack_damage","operation":"add_value","amount":-100,"slot":"mainhand"},{"type":"attack_speed","amount":-3,"operation":"add_value","id":"base_attack_speed","slot":"mainhand"}],enchantment_glint_override=false,enchantments={"sh2:left_click/hezi/skill0":1},piercing_weapon={"deals_knockback":true,"dismounts":true},custom_name="§a决爵-普通攻击[强化] << 就绪"]
