@@ -1,6 +1,7 @@
 {
-    "replace": false,
     "values": [
-        "sh2:true"
-    ]
+        "sh2:true",
+        "sh2:true_knockback"
+    ],
+    "replace": false
 }

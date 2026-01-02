@@ -1,1 +1,1 @@
-$damage @s $(amount) out_of_world
+$damage @s $(amount) sh2:true

@@ -1,3 +1,2 @@
 execute if score @s[scores={hezi.cd0=0}] ENERGY matches 30.. run function sh2:char/hezi/main_weapon/enhanced_attack
 execute if score @s[scores={hezi.cd0=0}] ENERGY matches ..29 anchored eyes run function sh2:char/hezi/main_weapon/raycasting
-scoreboard players set @s[scores={hezi.cd0=0}] hezi.cd0 20

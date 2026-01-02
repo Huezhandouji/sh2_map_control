@@ -10,7 +10,7 @@
         ]
     },
     "anvil_cost": 2,
-    "description": "abc",
+    "description": "left_click_hezi_skill0",
     "max_cost": {
         "base": 2,
         "per_level_above_first": 2

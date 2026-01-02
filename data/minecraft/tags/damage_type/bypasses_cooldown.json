@@ -3,6 +3,8 @@
     "values": [
         "sh2:true",
         "sh2:normal",
+        "sh2:true_knockback",
+        "sh2:normal_knockback",
         "out_of_world"
     ]
 }
