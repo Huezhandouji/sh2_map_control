@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": "chiseled_polished_blackstone",
-                    "components": {"custom_data": {"use_event":{"shadow_deploy_region_3":true}}}
+                    "components": {"custom_data": {"use_event":{"shadow_deploy_region_sec1_3":true}}}
                 }
             }
         }

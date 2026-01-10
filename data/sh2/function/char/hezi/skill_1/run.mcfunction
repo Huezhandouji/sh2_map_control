@@ -1,2 +1,3 @@
-execute if score @s hezi.cd1 matches 0 unless items entity @s hotbar.1 blaze_powder[custom_data={"use_event":{"skill_hezi_1":true}}] run function sh2:char/hezi/skill_1/replace_item_1
-execute if score @s hezi.cd1 matches 1.. unless items entity @s hotbar.1 barrier[custom_data={"slothoder":true}] run function sh2:char/hezi/skill_1/replace_item_2
+execute if entity @s[scores={hezi.cd1=0,faint_time=-1,silence_time=-1}] run return run function sh2:char/hezi/skill_1/item/available
+function sh2:char/hezi/skill_1/item/ban
+function sh2:char/hezi/skill_1/item/change_ban_item_name

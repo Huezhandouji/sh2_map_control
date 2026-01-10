@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": "stone_bricks",
-                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_2":true}}}
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_sec1_2":true}}}
                 }
             }
         }

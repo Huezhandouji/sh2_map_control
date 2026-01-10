@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "iron_ingot",
+                    "components": {"custom_data": {"use_event":{"skill_hezi_2":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/hezi/skill_2/use"
+    }
+}

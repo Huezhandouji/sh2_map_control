@@ -7,7 +7,7 @@ execute as @a[scores={character=101}] at @s run function sh2:char/hezi/run
 #/character = 101 to ... hunter
 
 #/character = 101 meiqi_hezi
-execute as @a[scores={apply_character=101}] at @s run function sh2:char/hezi/initialize
+execute as @a[scores={apply_character=101}] at @s run function sh2:char/hezi/apply
 #/apply_character = -1 撤销角色
 execute as @a[scores={apply_character=-1,character=101}] run function sh2:char/hezi/discharge
 #/apply_character=0,空闲

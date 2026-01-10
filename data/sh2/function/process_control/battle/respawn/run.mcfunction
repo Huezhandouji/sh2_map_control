@@ -3,4 +3,3 @@ execute as @a[scores={respawn_countdown=0..},team=shadow] at @s run function sh2
 execute as @a[scores={respawn_countdown=0..},team=hunter] at @s run function sh2:process_control/battle/respawn/hunter/cd
 scoreboard players set @a[scores={respawn_dead=1..}] respawn_dead 0
 
-execute as @a at @s run spawnpoint @s ~ ~ ~

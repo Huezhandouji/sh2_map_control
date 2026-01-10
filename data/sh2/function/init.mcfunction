@@ -39,6 +39,10 @@ scoreboard objectives add EVOLUTION dummy EVOLUTION
 #/特殊效果倒计时
 #//眩晕
 scoreboard objectives add faint_time dummy faint_time
+#//沉默
+scoreboard objectives add silence_time dummy silence_time
+#//定身
+scoreboard objectives add immobilize_time dummy immobilize_time
 #/血量
 scoreboard objectives add health health health
 #/战斗菜单trigger
