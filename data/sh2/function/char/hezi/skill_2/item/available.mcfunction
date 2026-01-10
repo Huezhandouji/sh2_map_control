@@ -1,3 +1,4 @@
+execute if items entity @s hotbar.2 iron_ingot[custom_data={"use_event":{"skill_hezi_2":true}}] run return fail
 #这是大头，这个技能物品是右键点击来释放的，所有不能用戳刺攻击的左键检测了，得用成就来检测
 clear @s iron_ingot[custom_data={"use_event":{"skill_hezi_2":true}}]
 kill @e[distance=..10,type=item,nbt={"Item":{"id":"minecraft:iron_ingot","components":{"minecraft:custom_data":{"use_event":{"skill_hezi_2":true}}}}}]

@@ -12,7 +12,7 @@ scoreboard players set @s[scores={trigger_shadow_select_char=1002}] page_menu_se
 scoreboard players set @s[scores={trigger_shadow_select_char=1003}] page_menu_select_char 1
 
 tag @s[scores={trigger_shadow_select_char=1001}] add player_execute_close_char_menu
-execute as @s[scores={trigger_shadow_select_char=0..},tag=!player_execute_close_char_menu] run function sh2:process_control/battle/char_select/shadow/click_open_interface
+execute as @s[scores={trigger_shadow_select_char=0..},tag=!player_execute_close_char_menu] as @a[tag=using_shadow_char_select_menu] run function sh2:process_control/battle/char_select/shadow/click_open_interface
 scoreboard players set @s[scores={trigger_shadow_select_char=0..}] trigger_shadow_select_char -1
 tellraw @s[tag=player_execute_close_char_menu] [{"text":"\n\n\n\n\n\n\n§e菜单已经关闭!"}]
 tag @s[tag=player_execute_close_char_menu] remove player_execute_close_char_menu

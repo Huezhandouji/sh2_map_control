@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "chiseled_polished_blackstone",
+                    "components": {"custom_data": {"use_event":{"shadow_deploy_region_sec2_3":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec2/deploy/region/shadow/3"
+    }
+}

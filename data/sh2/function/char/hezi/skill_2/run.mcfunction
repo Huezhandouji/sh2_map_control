@@ -1,8 +1,5 @@
-#二技能
-#思路和普攻差不多
-#依旧是不同的状态给不同的物品
-#一技能是二技能的思路的简化版本
-execute if score @s hezi.cd2 matches 0 if score @s ENERGY matches 15.. if score @s faint_time matches -1 unless items entity @s hotbar.2 iron_ingot[custom_data={"use_event":{"skill_hezi_2":true}}] run function sh2:char/hezi/skill_2/replace_item_available
-execute if score @s ENERGY matches ..14 unless items entity @s hotbar.2 barrier[custom_data={"slotholder2":true}] run function sh2:char/hezi/skill_2/replace_item_energy_shortage
-execute if score @s hezi.cd2 matches 1.. unless items entity @s hotbar.2 barrier[custom_data={"slotholder2":true}] run function sh2:char/hezi/skill_2/replace_item_cd
-execute unless score @s faint_time matches -1 unless items entity @s hotbar.2 barrier[custom_data={"slotholder2":true}] run function sh2:char/hezi/skill_2/replace_item_ban
+#二技能 思路和普攻差不多
+#依旧是不同的状态给不同的物品 一技能是二技能的思路的简化版本
+execute if entity @s[scores={hezi.cd2=0,ENERGY=15..,faint_time=-1,silence_time=-1}] run return run function sh2:char/hezi/skill_2/item/available
+function sh2:char/hezi/skill_2/item/ban
+function sh2:char/hezi/skill_2/item/change_ban_item_name

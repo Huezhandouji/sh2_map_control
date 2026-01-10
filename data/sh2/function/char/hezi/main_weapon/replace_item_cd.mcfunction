@@ -1,3 +1,0 @@
-clear @s barrier[custom_data={"slotholder0":true}]
-kill @e[distance=..5,type=item,nbt={"Item":{"id":"minecraft:barrier","components":{"minecraft:custom_data":{"slotholder0":true}}}}]
-item replace entity @s hotbar.0 with barrier[custom_data={"slotholder0":true},attribute_modifiers=[{"id":"base_attack_damage","operation":"add_value","amount":-9999,"type":"attack_damage"}],custom_name="§c决爵-普通攻击 << 不可用"]

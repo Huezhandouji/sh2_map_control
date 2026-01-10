@@ -1,0 +1,6 @@
+#眩晕，给屏障
+execute if items entity @s hotbar.0 barrier[custom_data={"slotholder0":true}] run return fail
+
+clear @s barrier[custom_data={"slotholder0":true}]
+kill @e[distance=..10,type=item,nbt={"Item":{"id":"minecraft:barrier","components":{"minecraft:custom_data":{"slotholder0":true}}}}]
+item replace entity @s hotbar.0 with barrier[custom_data={"slotholder0":true},item_name=[{"text":""}]]
