@@ -2,18 +2,18 @@
 #影
 execute if score point_status system matches 1 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3_,limit=1] text set value [{"text":"§d前线影庭§7[未升级]\n§d摧毁值"},{"score":{"name":"shadow_front_umbracore_destory_value","objective":"system"}},{"text":"\n§a可以部署"}]
 execute if score point_status system matches 2 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3_,limit=1] text set value [{"text":"§d前线影庭§a[已升级]\n§d摧毁值"},{"score":{"name":"shadow_front_umbracore_destory_value","objective":"system"}},{"text":"\n§a可以部署"}]
-execute if score point_status system matches 1..2 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§a防守据点[友方控制]"}]
-execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§e防守据点[中立]"}]
+execute if score point_status system matches 1..2 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§a暗影教堂-防守据点[友方控制]"}]
+execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§e暗影教堂-防守据点[中立]"}]
 execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3_,limit=1] text set value [{"text":"§e中立状态"}]
-execute if score point_status system matches 4 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§c防守据点[失去完全控制]"}]
+execute if score point_status system matches 4 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3,limit=1] text set value [{"text":"§c暗影教堂-防守据点[失去完全控制]"}]
 execute if score point_status system matches 4 run data modify entity @e[type=text_display,tag=sec2_shadow,tag=3_,limit=1] text set value [{"text":"§c敌方地基\n§c占领值"},{"score":{"name":"hunter_stronghold_occupy_value","objective":"system"}},{"text":"/100\n§c无法部署"}]
 #猎影人
 execute if score point_status system matches 1 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3_,limit=1] text set value [{"text":"§c前线影庭§7[未升级]\n§d摧毁值"},{"score":{"name":"shadow_front_umbracore_destory_value","objective":"system"}},{"text":"\n§c进攻"}]
 execute if score point_status system matches 2 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3_,limit=1] text set value [{"text":"§c前线影庭[已升级]\n§d摧毁值"},{"score":{"name":"shadow_front_umbracore_destory_value","objective":"system"}},{"text":"\n§c进攻"}]
-execute if score point_status system matches 1..2 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e进攻据点§c[敌方控制]"}]
-execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e进攻据点§h[中立]"}]
+execute if score point_status system matches 1..2 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e暗影教堂-进攻据点§c[敌方控制]"}]
+execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e暗影教堂-进攻据点§h[中立]"}]
 execute if score point_status system matches 3 run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3_,limit=1] text set value [{"text":"中立状态"}]
-execute if score point_status system matches 4.. run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e进攻据点§a[地基建立]"}]
+execute if score point_status system matches 4.. run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3,limit=1] text set value [{"text":"§e暗影教堂-进攻据点§a[地基建立]"}]
 execute if score point_status system matches 4.. run data modify entity @e[type=text_display,tag=sec2_hunter,tag=3_,limit=1] text set value [{"text":"§a友方地基\n§e占领值"},{"score":{"name":"hunter_stronghold_occupy_value","objective":"system"}},{"text":"\n§c进攻"}]
 #部署
 #影

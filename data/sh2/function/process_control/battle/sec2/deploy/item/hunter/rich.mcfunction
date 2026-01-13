@@ -1,0 +1,3 @@
+clear @s quartz_block[custom_data={"use_event":{"hunter_deploy_region_sec2_1":true}}]
+kill @e[type=item,distance=..10,nbt={"Item":{"id":"minecraft:quartz_block","components":{"minecraft:custom_data":{"use_event":{"hunter_deploy_region_sec2_1":true}}}}}]
+item replace entity @s hotbar.2 with quartz_block[custom_data={"use_event":{"hunter_deploy_region_sec2_1":true}},consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},item_name="§a部署§e->后方据点[别墅区]"]

@@ -1,0 +1,3 @@
+clear @s stone_bricks[custom_data={"use_event":{"shadow_deploy_region_sec1_2":true}}]
+kill @e[type=item,distance=..10,nbt={"Item":{"id":"minecraft:stone_bricks","components":{"minecraft:custom_data":{"use_event":{"shadow_deploy_region_sec1_2":true}}}}}]
+item replace entity @s hotbar.2 with stone_bricks[custom_data={"use_event":{"shadow_deploy_region_sec1_2":true}},consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},item_name="§a部署§e->前线影庭[小型社区]"]

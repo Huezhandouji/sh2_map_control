@@ -5,13 +5,13 @@ execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"
 #如果函数还没有结束，意味着选择了角色
 #应用角色 然后传送
 
-spreadplayers -230.5 -37.5 0 20 under 11 false @s
+spreadplayers -199.5 -38.5 0 10 under 11 false @s
 title @s times 0 40 0
 title @s title ""
 title @s subtitle "§a部署成功"
 tellraw @s [{"text":"§d#####部署成功#####"}]
-tellraw @s [{"text":"§a你在§e前线影庭[暗影教堂]§a部署"}]
-function sh2:process_control/battle/sec2/deploy/region/show_char_deployed_text
+tellraw @s [{"text":"§a你在§e后方部署点[暗影教堂]§a部署"}]
+function sh2:process_control/battle/sec1/deploy/region/show_char_deployed_text
 tellraw @s [{"text":"§a立即加入战斗!"}]
 tellraw @s [{"text":"§d#################"}]
 scoreboard players operation @s apply_character = @s char_selected
