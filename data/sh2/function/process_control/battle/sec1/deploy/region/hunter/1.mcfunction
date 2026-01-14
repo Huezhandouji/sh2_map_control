@@ -12,11 +12,9 @@ title @s subtitle "§a部署成功"
 tellraw @s [{"text":"§e#####部署成功#####"}]
 tellraw @s [{"text":"§a你在§e后方据点[别墅区]§a部署"}]
 function sh2:process_control/battle/sec1/deploy/region/show_char_deployed_text
-tellraw @s [{"text":"§c部署花费1个TICKET"}]
 tellraw @s [{"text":"§a立即加入战斗!"}]
 tellraw @s [{"text":"§e#################"}]
 scoreboard players operation @s apply_character = @s char_selected
 
-scoreboard players remove hunter_ticket system 1
 scoreboard players set @s in_battle 1
 clear @s

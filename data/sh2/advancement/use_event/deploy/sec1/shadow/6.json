@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "team_select0":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "beacon",
+                    "components": {"custom_data": {"use_event":{"shadow_deploy_region_sec1_6":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec1/deploy/region/shadow/6"
+    }
+}

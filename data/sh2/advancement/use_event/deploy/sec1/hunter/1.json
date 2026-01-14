@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": "quartz_block",
-                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_1":true}}}
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_sec1_1":true}}}
                 }
             }
         }

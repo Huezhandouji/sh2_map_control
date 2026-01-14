@@ -1,0 +1,3 @@
+clear @s chiseled_polished_blackstone[custom_data={"use_event":{"hunter_deploy_region_sec2_3":true}}]
+kill @e[type=item,distance=..10,nbt={"Item":{"id":"minecraft:chiseled_polished_blackstone","components":{"minecraft:custom_data":{"use_event":{"hunter_deploy_region_sec2_3":true}}}}}]
+item replace entity @s hotbar.4 with chiseled_polished_blackstone[custom_data={"use_event":{"hunter_deploy_region_sec2_3":true}},consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},item_name="§a部署§e->前线地基[暗影教堂]附近"]

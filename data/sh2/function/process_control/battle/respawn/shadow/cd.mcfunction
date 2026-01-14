@@ -2,7 +2,7 @@
 scoreboard players set @s apply_character -1
 title @s times 0 40 0
 execute if score @s respawn_countdown matches 200 run clear @s
-execute if score @s respawn_countdown matches 200 run title @s title "§c死亡不是终点"
+execute if score @s respawn_countdown matches 200 run title @s title "§c你死了!"
 execute if score @s respawn_countdown matches 160 run title @s title ""
 execute if score @s respawn_countdown matches 200 run scoreboard players set @s in_battle 0
 execute if score @s respawn_countdown matches 200 run gamemode spectator
