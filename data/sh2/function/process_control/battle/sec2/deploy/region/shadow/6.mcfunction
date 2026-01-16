@@ -1,4 +1,4 @@
-advancement revoke @s only sh2:use_event/deploy/sec1/shadow/6
+advancement revoke @s only sh2:use_event/deploy/sec2/shadow/6
 #没有选择角色的话就return
 execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"§c>>你需要先选择角色和EX技能配置"}]
 
@@ -17,4 +17,3 @@ tellraw @s [{"text":"§d#################"}]
 scoreboard players operation @s apply_character = @s char_selected
 
 scoreboard players set @s in_battle 1
-clear @s
