@@ -1,0 +1,1 @@
+function sh2:process_control/battle/sec4/compass_menu/hunter/main_menu
