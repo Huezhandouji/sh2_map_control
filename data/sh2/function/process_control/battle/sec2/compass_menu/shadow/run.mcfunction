@@ -7,7 +7,7 @@ execute unless items entity @s hotbar.8 compass run item replace entity @s hotba
 #关掉菜单/点按钮后再次打开菜单
 tag @s[scores={trigger_battle_menu=1001}] add player_execute_close_char_menu
 tellraw @s[tag=player_execute_close_char_menu] [{"text":"\n\n\n\n\n\n\n§c菜单已关闭"}]
-execute if entity @s[tag=!player_execute_close_char_menu,scores={trigger_battle_menu=1..}] run function sh2:process_control/battle/sec1/compass_menu/shadow/main_menu
+execute if entity @s[tag=!player_execute_close_char_menu,scores={trigger_battle_menu=1..}] run function sh2:process_control/battle/sec2/compass_menu/shadow/main_menu
 tag @s[tag=player_execute_close_char_menu] remove player_execute_close_char_menu
 
 #重建影庭

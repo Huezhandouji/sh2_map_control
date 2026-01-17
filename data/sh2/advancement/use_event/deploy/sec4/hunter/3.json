@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "chiseled_polished_blackstone",
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_sec4_3":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec4/deploy/region/hunter/3"
+    }
+}

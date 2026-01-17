@@ -3,7 +3,7 @@ tag @s add self
 #值0-999是用来选择角色的,-1代表空闲
 #1000以后用于操作
 
-tellraw @s [{"text":"\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§6#### 部署配置 ####"}]
+tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n§6#### 部署配置 ####"}]
 #1002选择EX技能选项卡
 tellraw @s [{"text":"§a<选择角色>","hover_event":{"action":"show_text","value":"§e当前选项卡"}},{"text":" "},{"text":"§b[EX技能]\n","hover_event":{"action":"show_text","value":"§e点击切换到这个选项卡"},"click_event":{"action":"run_command","command":"trigger trigger_hunter_select_char set 1002"}}]
 execute unless entity @a[scores={char_selected=101}] run tellraw @s [{"text":"§e[梅妻鹤子MEIQI_HEZI]","hover_event":{"action":"show_text","value":"§a这个角色还没有被选择,你可以点击来选择"},"click_event":{"action":"run_command","command":"trigger trigger_hunter_select_char set 101"}}]

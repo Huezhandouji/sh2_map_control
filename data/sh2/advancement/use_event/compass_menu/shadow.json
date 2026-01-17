@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "sh2:process_control/battle/sec1/compass_menu/shadow/clicked"
+        "function": "sh2:process_control/battle/compass_menu_redirect/shadow"
     }
 }
