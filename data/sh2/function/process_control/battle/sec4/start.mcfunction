@@ -30,7 +30,6 @@ execute as @e[tag=sec4_hunter,type=text_display,tag=!5_] run data modify entity 
 #开始的猎影人票数，前线影庭和主庭的摧毁值，猎影人占领值
 scoreboard players set hunter_stronghold_occupy_value system 0
 scoreboard players set shadow_front_umbracore_destory_value system 100
-scoreboard players set shadow_main_umbracore_destory_value system 500
 bossbar add hunter_display hunter_display
 bossbar set hunter_display visible true
 bossbar set hunter_display players @a

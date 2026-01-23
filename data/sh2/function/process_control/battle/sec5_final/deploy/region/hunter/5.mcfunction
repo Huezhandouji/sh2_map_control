@@ -1,4 +1,4 @@
-advancement revoke @s only sh2:use_event/deploy/sec4/hunter/5
+advancement revoke @s only sh2:use_event/deploy/sec5/hunter/5
 #没有选择角色的话就return
 execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"§c>>你需要先选择角色和EX技能配置"}]
 
@@ -10,7 +10,7 @@ title @s times 0 40 0
 title @s title ""
 title @s subtitle "§a部署成功"
 tellraw @s [{"text":"§e#####部署成功#####"}]
-tellraw @s [{"text":"§a你在§e前线地基[酒店]附近§a部署"}]
+tellraw @s [{"text":"§a你在§e后方据点[酒店]§a部署"}]
 function sh2:process_control/battle/sec1/deploy/region/show_char_deployed_text
 tellraw @s [{"text":"§a立即加入战斗!"}]
 tellraw @s [{"text":"§e#################"}]

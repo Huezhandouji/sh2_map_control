@@ -10,7 +10,7 @@ scoreboard players reset a calculate
 scoreboard players reset b calculate
 scoreboard players reset num calculate
 #如果倒计时结束，执行成功建造地基函数
-execute if score @s build_countdown matches 0 run function sh2:process_control/battle/sec2/point/base_establish
+execute if score @s build_countdown matches 0 run function sh2:process_control/battle/sec3/point/base_establish
 execute if score @s build_countdown matches 0 run scoreboard players set @s build_countdown -1
 #如果走出区域或者中间没有手持指南针，建造中断
 execute unless entity @s[nbt={"SelectedItemSlot":8}] run scoreboard players set @s build_countdown -1

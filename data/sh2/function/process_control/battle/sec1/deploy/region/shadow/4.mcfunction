@@ -5,7 +5,7 @@ execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"
 #如果函数还没有结束，意味着选择了角色
 #应用角色 然后传送
 
-spreadplayers -464.5 -45.5 0 20 under 11 false @s
+spreadplayers -464.5 -45.5 0 10 under 11 false @s
 title @s times 0 40 0
 title @s title ""
 title @s subtitle "§a部署成功"

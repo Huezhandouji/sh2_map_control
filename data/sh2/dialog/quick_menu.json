@@ -15,6 +15,20 @@
                 "type": "run_command",
                 "command": "tp @s 0 51 0"
             }
+        },
+        {
+            "label": "传送到影部署点",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 77.5 72.00 -123.5"
+            }
+        },
+        {
+            "label": "传送到猎影人部署点",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 76.5 70.00 -220.5"
+            }
         }
     ]
 }

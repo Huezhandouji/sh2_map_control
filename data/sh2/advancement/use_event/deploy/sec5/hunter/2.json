@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "stone_bricks",
+                    "components": {"custom_data": {"use_event":{"hunter_deploy_region_sec5_2":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec5_final/deploy/region/hunter/2"
+    }
+}

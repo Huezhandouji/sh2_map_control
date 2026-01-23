@@ -14,7 +14,7 @@ tag @s[tag=player_execute_close_char_menu] remove player_execute_close_char_menu
 execute positioned -475.5 33 -129.5 if entity @s[distance=..10,scores={trigger_battle_menu=1}] run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=1}] if score point_status system matches 3 run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=1}] unless entity @a[scores={build_countdown=0..}] run scoreboard players add @s conditions 1
-execute as @s[scores={conditions=3,trigger_battle_menu=1}] at @s run function sh2:process_control/battle/sec3/compass_menu/shadow/start_rebuild_umbracore
+execute as @s[scores={conditions=3,trigger_battle_menu=1}] at @s run function sh2:process_control/battle/sec4/compass_menu/shadow/start_rebuild_umbracore
 tellraw @s[scores={conditions=0..2,trigger_battle_menu=1}] [{"text":"§c无法重建影庭!§e可能是因为你不在据点内,据点不处于中立状态或者[其他队友或者敌人]正在建造"}]
 scoreboard players set @s conditions 0
 
@@ -22,7 +22,7 @@ scoreboard players set @s conditions 0
 execute positioned -475.5 33 -129.5 if entity @s[distance=..10,scores={trigger_battle_menu=2}] run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=2}] if score point_status system matches 1 run scoreboard players add @s conditions 1
 execute if entity @s[scores={trigger_battle_menu=2}] unless entity @a[scores={build_countdown=0..}] run scoreboard players add @s conditions 1
-execute as @s[scores={conditions=3,trigger_battle_menu=2}] at @s run function sh2:process_control/battle/sec3/compass_menu/shadow/start_upgrade_umbracore
+execute as @s[scores={conditions=3,trigger_battle_menu=2}] at @s run function sh2:process_control/battle/sec4/compass_menu/shadow/start_upgrade_umbracore
 tellraw @s[scores={conditions=0..2,trigger_battle_menu=2}] [{"text":"§c无法升级影庭!§e可能是因为你不在据点内,据点中影庭被摧毁,据点中影庭已经升级或者[其他队友或者敌人]正在建造"}]
 scoreboard players set @s conditions 0
 

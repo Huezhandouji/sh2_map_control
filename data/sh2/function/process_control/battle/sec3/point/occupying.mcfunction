@@ -16,6 +16,6 @@ scoreboard players reset num calculate
 #增减占领值
 execute positioned -461.5 6 -47.5 as @a[team=hunter,distance=..10,scores={in_battle=1}] run scoreboard players add hunter_stronghold_occupy_value system 1
 execute if score hunter_stronghold_occupy_value system matches 1.. positioned -461.5 6 -47.5 as @a[team=shadow,distance=..10,scores={in_battle=1}] run scoreboard players remove hunter_stronghold_occupy_value system 1
-execute if score second system matches 20 positioned -461.5 9 -47.5 run function sh2:process_control/battle/sec2/point/particle2
+execute if score second system matches 20 positioned -461.5 9 -47.5 run function sh2:process_control/battle/sec3/point/particle2
 
-#execute if score hunter_stronghold_occupy_value system matches 400.. run function sh2:process_control/battle/sec3/end
+execute if score hunter_stronghold_occupy_value system matches 400.. run function sh2:process_control/battle/sec3/end
