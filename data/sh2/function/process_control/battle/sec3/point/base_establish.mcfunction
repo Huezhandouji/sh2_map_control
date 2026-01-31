@@ -9,5 +9,5 @@ data modify entity @e[type=text_display,tag=sec2_shadow,tag=3_,limit=1] text set
 
 #放置结构3
 particle minecraft:explosion_emitter -462 8 -45 8 8 8 1 60 force
-place template minecraft:sec3_3 -473 -2 -54 none none 1 0 strict
+place template sh2:sec3_3 -473 -2 -54 none none 1 0 strict
 kill @e[type=item]

@@ -12,7 +12,7 @@ tellraw @a "§6###################"
 scoreboard players add hunter_ticket system 20
 
 #放置结构4
-place template minecraft:sec3_4 -473 -2 -54 none none 1 0 strict
+place template sh2:sec3_4 -473 -2 -54 none none 1 0 strict
 kill @e[type=item]
 
 function sh2:process_control/battle/sec4/start

@@ -6,5 +6,5 @@ bossbar set shadow_display name [{"text":"§d前线影庭§c被摧毁! §f据点
 
 #放置结构2
 particle minecraft:explosion_emitter -462 8 -45 8 8 8 1 60 force
-place template minecraft:sec3_2 -473 -2 -54 none none 1 0 strict
+place template sh2:sec3_2 -473 -2 -54 none none 1 0 strict
 kill @e[type=item]

@@ -13,7 +13,7 @@ scoreboard players add hunter_ticket system 20
 
 
 #放置结构4
-place template minecraft:sec2_4 -207 0 -48 none none 1 0 strict
+place template sh2:sec2_4 -207 0 -48 none none 1 0 strict
 kill @e[type=item]
 
 function sh2:process_control/battle/sec3/start

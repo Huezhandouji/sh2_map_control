@@ -46,5 +46,5 @@ bossbar set shadow_display max 200
 scoreboard players set point_status system 1
 
 #放置结构1
-place template minecraft:sec3_1 -473 -2 -54 none none 1 0 strict
+place template sh2:sec3_1 -473 -2 -54 none none 1 0 strict
 kill @e[type=item]
