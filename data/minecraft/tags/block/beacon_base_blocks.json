@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "smooth_quartz",
+        "bricks",
+        "bamboo_block",
+        "bamboo_planks",
+        "air"
+
+    ]
+}
