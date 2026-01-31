@@ -42,3 +42,7 @@ bossbar set shadow_display max 200
 
 #据点状态，1代表有影庭，2有升级的影庭，3空置没有人和影的东西，4有人的地基, 5完全占领
 scoreboard players set point_status system 1
+
+#放置结构1
+place template minecraft:sec2_1 -207 0 -48 none none 1 0 strict
+kill @e[type=item]

@@ -10,4 +10,10 @@ tellraw @a "§b准备好进攻或者防守!"
 tellraw @a "§c猎影人现在获得了新的 20 TICKET"
 tellraw @a "§6###################"
 scoreboard players add hunter_ticket system 20
+
+
+#放置结构4
+place template minecraft:sec2_4 -207 0 -48 none none 1 0 strict
+kill @e[type=item]
+
 function sh2:process_control/battle/sec3/start
