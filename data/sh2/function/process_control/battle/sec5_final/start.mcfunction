@@ -47,3 +47,9 @@ bossbar set shadow_display max 500
 
 #据点状态，1代表有影庭，2炸了
 scoreboard players set point_status system 1
+
+#放置结构1
+place template sec5_1 -286 55 -159 none none 1 0 strict
+kill @e[type=item]
+
+scoreboard players set flag_main_umbracore_damaged system 0

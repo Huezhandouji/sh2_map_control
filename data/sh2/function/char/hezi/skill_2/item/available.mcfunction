@@ -1,4 +1,4 @@
 execute if items entity @s hotbar.2 iron_ingot[custom_data={"use_event":{"skill_hezi_2":true}}] run return fail
 clear @s iron_ingot[custom_data={"use_event":{"skill_hezi_2":true}}]
 kill @e[distance=..10,type=item,nbt={"Item":{"id":"minecraft:iron_ingot","components":{"minecraft:custom_data":{"use_event":{"skill_hezi_2":true}}}}}]
-item replace entity @s hotbar.2 with iron_ingot[consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},custom_data={"use_event":{"skill_hezi_2":true}},item_name=[{"text":"§a突进 << 就绪"}]]
+item replace entity @s hotbar.2 with iron_ingot[consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},custom_data={"use_event":{"skill_hezi_2":true}},item_name=[{"text":"§a血腥连斩 << 就绪"}]]

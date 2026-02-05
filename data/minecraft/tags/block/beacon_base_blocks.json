@@ -5,7 +5,8 @@
         "bricks",
         "bamboo_block",
         "bamboo_planks",
-        "air"
+        "air",
+        "grass_block"
 
     ]
 }

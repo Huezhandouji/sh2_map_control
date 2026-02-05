@@ -18,4 +18,10 @@ tellraw @a "§b准备好进攻或者防守!"
 tellraw @a "§c猎影人现在获得了新的 50 TICKET"
 tellraw @a "§6###################"
 scoreboard players add hunter_ticket system 50
+
+#在楼下放置结构5
+particle minecraft:explosion_emitter -458 7 -127 8 8 8 1 60 force
+place template sec4_5 -468 6 -139 none none 1 0 strict
+kill @e[type=item]
+
 function sh2:process_control/battle/sec5_final/start

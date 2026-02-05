@@ -18,3 +18,10 @@ scoreboard players set @a char_selected 0
 scoreboard players set @a apply_character -1
 
 scoreboard objectives setdisplay below_name SAN
+
+tag @a remove using_hunter_char_select_menu
+tag @a remove using_shadow_char_select_menu
+
+#设置本场对局id
+scoreboard players add #standard battle_id 1
+scoreboard players operation @a battle_id = #standard battle_id

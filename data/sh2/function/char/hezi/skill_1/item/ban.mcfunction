@@ -3,4 +3,4 @@ execute if items entity @s hotbar.1 barrier[custom_data={"slotholder1":true}] ru
 
 clear @s barrier[custom_data={"slotholder1":true}]
 kill @e[distance=..10,type=item,nbt={"Item":{"id":"minecraft:barrier","components":{"minecraft:custom_data":{"slotholder1":true}}}}]
-item replace entity @s hotbar.1 with barrier[custom_data={"slotholder1":true},item_name=[{"text":""}]]
+item replace entity @s hotbar.1 with barrier[custom_data={"slotholder1":true},item_name=[{"text":""}],attribute_modifiers=[{"id":"ban_attack","amount":-100,"operation":"add_value","type":"attack_damage","slot":"hand"}]]

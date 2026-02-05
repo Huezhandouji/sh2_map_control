@@ -15,7 +15,7 @@ execute if score @s build_countdown matches 0 run scoreboard players set @s buil
 #如果走出区域或者中间没有手持指南针，建造中断
 execute unless entity @s[nbt={"SelectedItemSlot":8}] run scoreboard players set @s build_countdown -1
 execute unless entity @s[nbt={"SelectedItemSlot":8}] run tellraw @s [{"text":"§c建造中断!在建造时必须手持指南针"}]
-execute positioned -475.5 33 -129.5 unless entity @s[distance=..10] run scoreboard players set @s build_countdown -1
-execute positioned -475.5 33 -129.5 unless entity @s[distance=..10] run tellraw @s [{"text":"§c建造中断!在建造时必须处于据点内"}]
+execute positioned -458 7 -127 unless entity @s[distance=..10] run scoreboard players set @s build_countdown -1
+execute positioned -458 7 -127 unless entity @s[distance=..10] run tellraw @s [{"text":"§c建造中断!在建造时必须处于据点内"}]
 
 scoreboard players remove @s build_countdown 1

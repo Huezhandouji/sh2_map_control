@@ -22,7 +22,8 @@ execute as @a[team=hunter,scores={in_battle=0}] at @s run function sh2:process_c
 
 #区域状态
 #临时当区域范围的粒子
-execute if score second system matches 20 positioned -475.5 35 -129.5 run function sh2:process_control/battle/sec4/point/particle3
+execute if score point_status system matches 1..2 if score second system matches 20 positioned -475.5 35 -129.5 run function sh2:process_control/battle/sec4/point/particle3
+execute if score point_status system matches 3.. if score second system matches 20 positioned -458 9 -127 run function sh2:process_control/battle/sec4/point/particle3
 #设置bossbar和粒子
 execute if score point_status system matches 1 run bossbar set shadow_display name [{"text":"§d前线影庭§7[未升级]§d 摧毁值: "},{"score":{"name":"shadow_front_umbracore_destory_value","objective":"system"}},{"text":" / 200"}]
 execute store result bossbar minecraft:shadow_display value run scoreboard players get shadow_front_umbracore_destory_value system
@@ -50,3 +51,4 @@ execute if score point_status system matches 4 run function sh2:process_control/
 execute if score point_status system matches 3 as @a[scores={build_countdown=0..200},team=shadow] at @s run function sh2:process_control/battle/sec4/point/rebuilding_umbracore
 #影升级前线影庭
 execute if score point_status system matches 1 as @a[scores={build_countdown=0..200},team=shadow] at @s run function sh2:process_control/battle/sec4/point/upgrading_umbracore
+

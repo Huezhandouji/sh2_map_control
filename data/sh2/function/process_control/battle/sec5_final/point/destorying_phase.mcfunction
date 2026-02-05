@@ -3,4 +3,4 @@ data modify entity @e[limit=1,tag=6_,tag=sec5_hunter,type=text_display] text set
 execute store result bossbar shadow_display value run scoreboard players get shadow_main_umbracore_destory_value system
 bossbar set shadow_display name [{"text":"§d最终目标-主影庭 §8// §e未被摧毁 §8// §e摧毁值 "},{"score":{"name":"shadow_main_umbracore_destory_value","objective":"system"}},{"text":"/500"}]
 execute if score shadow_main_umbracore_destory_value system matches ..0 run function sh2:process_control/battle/sec5_final/point/main_umbracore_destoryed
-execute if score second system matches 20 positioned -291.5 8 -110.5 run function sh2:process_control/battle/sec4/point/particle
+execute if score second system matches 20 positioned -276.5 59 -149.5 run function sh2:process_control/battle/sec4/point/particle
