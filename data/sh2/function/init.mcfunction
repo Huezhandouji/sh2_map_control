@@ -72,3 +72,6 @@ scoreboard objectives add trigger_hunter_fast_back_deploy trigger trigger_hunter
 
 #/检测跨局玩家
 scoreboard objectives add battle_id dummy battle_id
+
+#游戏规则
+gamerule natural_health_regeneration false
