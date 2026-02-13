@@ -1,0 +1,1 @@
+effect give @a[tag=hezi] instant_health 1 1 true

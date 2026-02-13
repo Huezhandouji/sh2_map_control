@@ -18,3 +18,8 @@ scoreboard players set @s character 0
 scoreboard players set @s conditions 0
 scoreboard players set @s ex_selected 0
 
+scoreboard players set @s in_battle 0
+scoreboard players set @s faint_time -1
+scoreboard players set @s silence_time -1
+scoreboard players set @s immobilize_time -1
+tellraw @a [{"selector":"@s","color":"yellow"},{"text":"是第一次加入","color":"green"}]

@@ -1,8 +1,10 @@
-scoreboard players set @s[scores={san_punish_countdown=100},team=hunter] SAN -9999
+scoreboard players set @s[scores={san_punish_countdown=100},team=hunter] SAN -999
+scoreboard players set @s[scores={san_punish_countdown=100}] immune_control_time -1
 #特效
 title @s[scores={san_punish_countdown=100},team=hunter] times 0 100 0
 title @s[scores={san_punish_countdown=100},team=hunter] title [{"text":"§d⊠恐惧正在注视着你⊠"}]
 title @s[scores={san_punish_countdown=100},team=hunter] subtitle [{"text":"§7再一次 忏悔吧"}]
+
 
 title @s[scores={san_punish_countdown=100},team=shadow] times 0 100 0
 title @s[scores={san_punish_countdown=100},team=shadow] title [{"text":"§e⊠痛苦摸上脊背⊠"}]

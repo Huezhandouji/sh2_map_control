@@ -1,4 +1,4 @@
-advancement revoke @s only sh2:use_event/deploy/sec1/hunter/1
+advancement revoke @s only sh2:use_event/deploy/sec2/hunter/1
 #没有选择角色的话就return
 execute if score @s char_selected matches 0 run return run tellraw @s [{"text":"§c>>你需要先选择角色和EX技能配置"}]
 

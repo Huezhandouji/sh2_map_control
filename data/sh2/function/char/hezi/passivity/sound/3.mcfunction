@@ -1,0 +1,1 @@
+execute as @a[tag=hezi] at @s run playsound entity.blaze.hurt
