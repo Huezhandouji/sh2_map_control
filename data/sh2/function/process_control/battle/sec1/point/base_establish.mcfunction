@@ -6,3 +6,8 @@ bossbar set shadow_display color yellow
 
 data modify entity @e[type=text_display,tag=sec1_shadow,tag=2,limit=1] text set value [{"text":"§c防守据点"}]
 data modify entity @e[type=text_display,tag=sec1_shadow,tag=2_,limit=1] text set value [{"text":"§c地方地基已建立"}]
+
+#放置结构3
+place template sh2:sec1_3 -252 -4 65 none none 1 0 strict
+particle minecraft:explosion_emitter -243 8 74 8 8 8 1 60 force
+kill @e[type=item]

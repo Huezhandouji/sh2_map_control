@@ -1,0 +1,30 @@
+{
+    "effects": {
+        "post_piercing_attack":[
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/kovaci/main_weapon/switch_aimming"
+                }
+            }
+        ]
+    },
+    "anvil_cost": 2,
+    "description": "left_click_kovaci_skill0",
+    "max_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "max_level": 1,
+    "slots": [
+        "any"
+    ],
+    "supported_items": [
+        "diamond"
+    ],
+    "weight": 5
+}

@@ -1,0 +1,52 @@
+{
+    "type": "multi_action",
+    "title": "执行地图控制指令",
+    "body": {
+        "type": "plain_message",
+        "contents": "这些操作很危险,不要随意乱点"
+    },
+    "actions": [
+        {
+            "label": "开启战斗阶段",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/start"
+            }
+        },
+        {
+            "label": "开启据点1",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/sec1/start"
+            }
+        },
+        {
+            "label": "开启据点2",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/sec2/start"
+            }
+        },
+        {
+            "label": "开启据点3",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/sec3/start"
+            }
+        },
+        {
+            "label": "开启据点4",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/sec4/start"
+            }
+        },
+        {
+            "label": "开启最终据点5",
+            "action": {
+                "type": "run_command",
+                "command": "function sh2:process_control/battle/sec5_final/start"
+            }
+        }
+    ]
+}

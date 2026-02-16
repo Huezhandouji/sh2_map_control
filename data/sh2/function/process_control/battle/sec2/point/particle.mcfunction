@@ -6,4 +6,4 @@ execute as @e[type=armor_stand,tag=front_umbracore_1_particle] at @s positioned 
 execute as @e[type=armor_stand,tag=front_umbracore_1_particle] at @s positioned ^ ^-1000 ^ run particle electric_spark ~ ~ ~ 10 10 10 1 1 normal
 execute as @e[type=armor_stand,tag=front_umbracore_1_particle,limit=1] at @s run rotate @s ~2 ~
 scoreboard players add @e[type=armor_stand,tag=front_umbracore_1_particle] loopcnt 1
-execute as @e[type=armor_stand,tag=front_umbracore_1_particle] at @s run function sh2:process_control/battle/sec1/point/particle
+execute as @e[type=armor_stand,tag=front_umbracore_1_particle] at @s run function sh2:process_control/battle/sec2/point/particle

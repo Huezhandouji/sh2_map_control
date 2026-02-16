@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "team_select0":{
+        "ccb":{
             "trigger": "consume_item",
             "conditions": {
                 "item": {

@@ -43,6 +43,8 @@ scoreboard objectives add faint_time dummy faint_time
 scoreboard objectives add silence_time dummy silence_time
 #//定身
 scoreboard objectives add immobilize_time dummy immobilize_time
+#//免控
+scoreboard objectives add immune_control_time dummy immune_control_time
 #/血量
 scoreboard objectives add health health health
 #/战斗菜单trigger
@@ -67,3 +69,6 @@ scoreboard objectives add respawn_dead deathCount respawn_dead
 scoreboard objectives add respawn_countdown dummy respawn_countdown
 #/猎影人提前部署按钮的trigger
 scoreboard objectives add trigger_hunter_fast_back_deploy trigger trigger_hunter_fast_back_deploy
+
+#/检测跨局玩家
+scoreboard objectives add battle_id dummy battle_id

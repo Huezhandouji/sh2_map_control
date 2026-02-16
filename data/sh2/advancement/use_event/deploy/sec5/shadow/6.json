@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "beacon",
+                    "components": {"custom_data": {"use_event":{"shadow_deploy_region_sec5_6":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:process_control/battle/sec5_final/deploy/region/shadow/6"
+    }
+}

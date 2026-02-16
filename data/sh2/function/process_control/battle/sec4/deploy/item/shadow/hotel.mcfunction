@@ -1,0 +1,3 @@
+clear @s oak_door[custom_data={"use_event":{"shadow_deploy_region_sec4_5":true}}]
+kill @e[type=item,distance=..10,nbt={"Item":{"id":"minecraft:oak_door","components":{"minecraft:custom_data":{"use_event":{"shadow_deploy_region_sec4_5":true}}}}}]
+item replace entity @s hotbar.5 with oak_door[custom_data={"use_event":{"shadow_deploy_region_sec4_5":true}},consumable={"animation":"none","consume_seconds":0,"has_consume_particles":false,"sound":{"sound_id":""}},item_name="§a部署§e->前线影庭[酒店]"]

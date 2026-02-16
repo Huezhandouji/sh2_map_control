@@ -11,3 +11,9 @@ scoreboard players add 1s clock 1
 execute if score 1s clock matches 21 run scoreboard players set 1s clock 0
 scoreboard players add 2s clock 1
 execute if score 2s clock matches 41 run scoreboard players set 2s clock 0
+scoreboard players add 1_2s clock 1
+execute if score 1_2s clock matches 11 run scoreboard players set 1_2s clock 0
+scoreboard players add 1_4s clock 1
+execute if score 1_4s clock matches 6 run scoreboard players set 1_4s clock 0
+
+effect give @a saturation infinite 255 true
