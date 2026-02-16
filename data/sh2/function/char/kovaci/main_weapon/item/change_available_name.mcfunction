@@ -1,0 +1,1 @@
+$item modify entity @s hotbar.0 {"function":"set_components","components":{"item_name":[{"text":"§a突击步枪 弹药 $(item0_name)/20"}]}}

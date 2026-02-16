@@ -1,0 +1,1 @@
+scoreboard players set @s kovaci.reload_cd 100

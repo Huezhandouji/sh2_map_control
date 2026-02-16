@@ -1,0 +1,2 @@
+execute store result storage sh2:character kovaci.item0_name int 1 run scoreboard players get @s kovaci.ammo
+function sh2:char/kovaci/main_weapon/item/change_available_name with storage sh2:character kovaci
