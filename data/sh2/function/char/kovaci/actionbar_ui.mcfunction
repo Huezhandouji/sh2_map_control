@@ -1,0 +1,1 @@
+title @s actionbar [{"selector":"@s","color":"green"},{"text":"§e[科瓦西] §7# §a能量 "},{"score":{"name":"@s","objective":"ENERGY"},"color":"white"}]

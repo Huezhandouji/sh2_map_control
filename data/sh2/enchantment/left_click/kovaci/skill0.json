@@ -4,7 +4,7 @@
             {
                 "effect": {
                     "type": "run_function",
-                    "function": "sh2:char/kovaci/main_weapon/switch_aimming"
+                    "function": "sh2:char/kovaci/main_weapon/aimming/switch"
                 }
             }
         ]
