@@ -10,6 +10,9 @@ scoreboard players set @s kovaci.ammo 20
 scoreboard objectives add kovaci.bullet_exist_time dummy kovaci.bullet_exist_time
 scoreboard objectives add kovaci.shoot_interval dummy kovaci.shoot_interval
 scoreboard players set @s kovaci.shoot_interval 0
+scoreboard objectives add kovaci.grenade_motion dummy grenade_motion
+scoreboard objectives add kovaci.cd1 dummy kovaci.cd1
+scoreboard players set @s kovaci.cd1 0
 
 scoreboard players set @s SAN_MAX 100
 scoreboard players set @s SAN 100

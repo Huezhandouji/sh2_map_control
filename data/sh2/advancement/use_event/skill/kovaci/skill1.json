@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "iron_horse_armor",
+                    "components": {"custom_data": {"use_event":{"skill_kovaci_1":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/kovaci/skill_1/use"
+    }
+}

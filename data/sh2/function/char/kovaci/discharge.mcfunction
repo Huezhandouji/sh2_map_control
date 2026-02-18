@@ -9,3 +9,4 @@ scoreboard objectives remove kovaci.bullet_exist_time
 scoreboard objectives remove kovaci.is_aimming
 scoreboard objectives remove kovaci.reload_cd
 scoreboard objectives remove kovaci.shoot_interval
+scoreboard objectives remove kovaci.grenade_motion
