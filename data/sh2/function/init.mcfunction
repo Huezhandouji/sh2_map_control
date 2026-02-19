@@ -15,6 +15,9 @@ team add spectator
 team modify shadow prefix [{"text":"[shadow]","color":"dark_purple"}]
 team modify hunter prefix [{"text":"[hunter]","color":"yellow"}]
 team modify spectator prefix [{"text":"(spectator)","color":"gray"}]
+team modify shadow seeFriendlyInvisibles true
+team modify hunter seeFriendlyInvisibles true
+team modify spectator seeFriendlyInvisibles true
 #没啥用
 scoreboard objectives add player_display dummy player_display
 #准备阶段选队用trigger

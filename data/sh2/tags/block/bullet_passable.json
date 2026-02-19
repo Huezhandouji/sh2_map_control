@@ -5,6 +5,11 @@
         "#replaceable",
         "#buttons",
         "#pressure_plates",
-        "#wool_carpets"
+        "#wool_carpets",
+        "#minecraft:climbable",
+        "#small_flowers",
+        "sunflower",
+        "lilac",
+        "mangrove_propagule"
     ]
 }

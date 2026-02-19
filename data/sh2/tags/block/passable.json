@@ -3,11 +3,14 @@
     "values": [
         "#air",
         "#replaceable",
-        "#flowers",
         "#buttons",
         "#pressure_plates",
         "#slabs",
         "#wool_carpets",
-        "#minecraft:climbable"
+        "#minecraft:climbable",
+        "#small_flowers",
+        "sunflower",
+        "lilac",
+        "mangrove_propagule"
     ]
 }

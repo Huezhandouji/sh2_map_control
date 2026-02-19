@@ -15,3 +15,4 @@ $execute if score game_process system matches 2 if score point_status system mat
 positioned -276.5 57 -149.5 if entity @e[tag=umbracore_demage_location_check,type=marker,distance=..$(distance)] run \
 scoreboard players remove shadow_main_umbracore_destory_value system $(damage)
 kill @e[type=marker,tag=umbracore_demage_location_check]
+
