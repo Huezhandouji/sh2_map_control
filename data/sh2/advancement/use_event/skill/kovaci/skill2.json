@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "tnt_minecart",
+                    "components": {"custom_data": {"use_event":{"skill_kovaci_2":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/kovaci/skill_2/use"
+    }
+}
