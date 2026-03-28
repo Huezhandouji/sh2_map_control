@@ -11,3 +11,6 @@ tag @a[scores={in_battle=1},tag=using_hunter_char_select_menu] remove using_hunt
 
 #检测跨局玩家
 execute as @a unless score @s battle_id = #standard battle_id run function sh2:process_control/battle/action_cross_battle_player
+
+#影胜利
+execute if score hunter_ticket system matches ..0 run function sh2:process_control/battle/shadow_win

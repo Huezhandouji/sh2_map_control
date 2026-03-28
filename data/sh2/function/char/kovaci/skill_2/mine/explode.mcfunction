@@ -3,5 +3,5 @@ scoreboard players set @e[team=shadow,distance=..5,scores={faint_time=..40}] fai
 particle explosion ~ ~ ~ 2 2 2 1 10 force
 particle dust{"color":2829099,scale:2} ~ ~ ~ 3 3 3 1 30 force
 playsound entity.generic.explode master @a ~ ~ ~ 5 1
-kill @e[tag=kovaci_mine1,type=block_display,sort=nearest]
+kill @e[tag=kovaci_mine1,type=block_display]
 kill @s

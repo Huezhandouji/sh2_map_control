@@ -28,3 +28,10 @@ scoreboard players set @s SAN 100
 scoreboard players set @s ENERGY_MAX 150
 scoreboard players set @s ENERGY 150
 attribute @s max_health modifier add add_max_health 30 add_value
+
+item replace entity @s armor.head with iron_helmet[enchantments={"binding_curse":1,"projectile_protection":2},enchantment_glint_override=false]
+item replace entity @s armor.chest with leather_chestplate[dyed_color=1263104,enchantments={"binding_curse":1,"protection":1}]
+item replace entity @s armor.legs with leather_leggings[dyed_color=5998848,enchantments={"binding_curse":1,"protection":1},enchantment_glint_override=false]
+item replace entity @s armor.feet with leather_boots[enchantments={"binding_curse":1,"protection":1,"blast_protection":2},enchantment_glint_override=false]
+
+effect give @s instant_health 1 20 true

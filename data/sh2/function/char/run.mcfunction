@@ -2,7 +2,7 @@
 execute as @a[scores={character=101}] at @s run function sh2:char/hezi/run
 execute as @a[scores={character=102}] at @s run function sh2:char/kovaci/run
 
-
+execute as @a[scores={character=1}] at @s run function sh2:char/red/run
 #/character = 1 to 100 shadow
 #/character = 101 to ... hunter
 
@@ -10,9 +10,14 @@ execute as @a[scores={character=102}] at @s run function sh2:char/kovaci/run
 execute as @a[scores={apply_character=101}] at @s run function sh2:char/hezi/apply
 #/ = 102 kovaci
 execute as @a[scores={apply_character=102}] at @s run function sh2:char/kovaci/apply
+
+
+#/ = 1 red
+execute as @a[scores={apply_character=1}] at @s run function sh2:char/red/apply
 #/apply_character = -1 撤销角色
 execute as @a[scores={apply_character=-1,character=101}] run function sh2:char/hezi/discharge
 execute as @a[scores={apply_character=-1,character=102}] run function sh2:char/kovaci/discharge
+execute as @a[scores={apply_character=-1,character=1}] run function sh2:char/red/discharge
 #/apply_character=0,空闲
 
 #特殊值系统

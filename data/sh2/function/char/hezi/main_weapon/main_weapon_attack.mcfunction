@@ -2,4 +2,4 @@
 #强化普攻
 execute if score @s[scores={hezi.cd0=0}] ENERGY matches 30.. run function sh2:char/hezi/main_weapon/enhanced_attack
 #设置冷却
-scoreboard players set @s hezi.cd0 21
+scoreboard players set @s hezi.cd0 11

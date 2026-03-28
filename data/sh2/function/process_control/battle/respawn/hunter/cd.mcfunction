@@ -1,12 +1,8 @@
 #倒计时10秒后传送回部署的地方，可以提前回去
 scoreboard players set @s apply_character -1
 title @s times 0 40 0
-execute if score @s respawn_countdown matches 200 run scoreboard players set @s char_selected 0
-execute if score @s respawn_countdown matches 200 run clear @s
-execute if score @s respawn_countdown matches 200 run title @s title "§c你死了!"
+execute if score @s respawn_countdown matches 200 run function sh2:process_control/battle/respawn/hunter/cd_line_200
 execute if score @s respawn_countdown matches 160 run title @s title ""
-execute if score @s respawn_countdown matches 200 run scoreboard players set @s in_battle 0
-execute if score @s respawn_countdown matches 200 run gamemode spectator
 
 scoreboard players operation a calculate = @s respawn_countdown
 scoreboard players set num calculate 20

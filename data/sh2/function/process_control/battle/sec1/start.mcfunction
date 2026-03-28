@@ -2,6 +2,9 @@ scoreboard players set battle_phase system 1
 #影§
 kill @e[type=text_display,tag=sec1_shadow]
 kill @e[type=text_display,tag=sec2_shadow]
+kill @e[type=text_display,tag=sec3_shadow]
+kill @e[type=text_display,tag=sec4_shadow]
+kill @e[type=text_display,tag=sec5_shadow]
 summon text_display 71 73.5 -127 {"text":[{"text":"§c别墅区\n敌方控制"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","1"]}
 summon text_display 83 74.5 -128 {"text":[{"text":"§a防守据点"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","2"]}
 summon text_display 84 73.5 -128 {"text":[{"text":"§d前线影庭§7[未升级]\n§a可以部署"}],"billboard":"center","see_through":true,Tags:["sec1_shadow","2_"]}
@@ -15,6 +18,9 @@ execute as @e[tag=sec1_shadow,type=text_display,tag=!2_,tag=!3_] run data modify
 #猎影人
 kill @e[type=text_display,tag=sec1_hunter]
 kill @e[type=text_display,tag=sec2_hunter]
+kill @e[type=text_display,tag=sec3_hunter]
+kill @e[type=text_display,tag=sec4_hunter]
+kill @e[type=text_display,tag=sec5_hunter]
 summon text_display 58 72 -218 {"text":[{"text":"§a别墅区\n友方控制"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","1"]}
 summon text_display 69 72 -218 {"text":[{"text":"§e进攻据点"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","2"]}
 summon text_display 71 71.5 -218 {"text":[{"text":"§c前线影庭§7[未升级]\n§c进攻"}],"billboard":"center","see_through":true,Tags:["sec1_hunter","2_"]}
