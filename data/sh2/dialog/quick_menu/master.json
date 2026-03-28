@@ -1,0 +1,24 @@
+{
+    "type": "multi_action",
+    "title": "快捷操作",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "不要点击和执行不理解的操作!"
+    },
+    "actions": [
+        {
+            "label": "赶路",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "sh2:quick_menu/teleport"
+            }
+        },
+        {
+            "label": "地图控制操作",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "sh2:quick_menu/map_control"
+            }
+        }
+    ]
+}

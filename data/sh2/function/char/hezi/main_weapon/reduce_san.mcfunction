@@ -1,0 +1,1 @@
+scoreboard players remove @a[tag=hezi] SAN 3

@@ -10,6 +10,18 @@ scoreboard objectives add hezi.cd1 dummy hezi.cd0
 scoreboard players set @s hezi.cd1 0
 scoreboard objectives add hezi.cd2 dummy heze.cd2
 scoreboard players set @s hezi.cd2 0
+scoreboard objectives add hezi.cd3 dummy hezi.cd3
+scoreboard players set @s hezi.cd3 0
 scoreboard objectives add hezi.process.cd2 dummy hezi.process.cd2
 scoreboard players set @s hezi.process.cd2 -1
+scoreboard objectives add hezi.process.cd3 dummy hezi.process.cd3
+scoreboard players set @s hezi.process.cd3 -1
+scoreboard objectives add hezi.process.passivity dummy hezi.process.passivity
+scoreboard players set @s hezi.process.passivity -1
 tag @s add hezi
+
+scoreboard players set @s SAN_MAX 150
+scoreboard players set @s SAN 150
+scoreboard players set @s ENERGY_MAX 100
+scoreboard players set @s ENERGY 100
+attribute @s max_health modifier add add_max_health 40 add_value

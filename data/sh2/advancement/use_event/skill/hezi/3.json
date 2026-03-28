@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "magma_cream",
+                    "components": {"custom_data": {"use_event":{"skill_hezi_3":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/hezi/skill_3/use"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "#air",
+        "#replaceable",
+        "#buttons",
+        "#pressure_plates",
+        "#slabs",
+        "#wool_carpets",
+        "#minecraft:climbable",
+        "#small_flowers",
+        "sunflower",
+        "lilac",
+        "mangrove_propagule"
+    ]
+}

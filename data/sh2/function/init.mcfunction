@@ -15,6 +15,9 @@ team add spectator
 team modify shadow prefix [{"text":"[shadow]","color":"dark_purple"}]
 team modify hunter prefix [{"text":"[hunter]","color":"yellow"}]
 team modify spectator prefix [{"text":"(spectator)","color":"gray"}]
+team modify shadow seeFriendlyInvisibles true
+team modify hunter seeFriendlyInvisibles true
+team modify spectator seeFriendlyInvisibles true
 #没啥用
 scoreboard objectives add player_display dummy player_display
 #准备阶段选队用trigger
@@ -43,6 +46,8 @@ scoreboard objectives add faint_time dummy faint_time
 scoreboard objectives add silence_time dummy silence_time
 #//定身
 scoreboard objectives add immobilize_time dummy immobilize_time
+#//免控
+scoreboard objectives add immune_control_time dummy immune_control_time
 #/血量
 scoreboard objectives add health health health
 #/战斗菜单trigger
@@ -67,3 +72,6 @@ scoreboard objectives add respawn_dead deathCount respawn_dead
 scoreboard objectives add respawn_countdown dummy respawn_countdown
 #/猎影人提前部署按钮的trigger
 scoreboard objectives add trigger_hunter_fast_back_deploy trigger trigger_hunter_fast_back_deploy
+
+#/检测跨局玩家
+scoreboard objectives add battle_id dummy battle_id

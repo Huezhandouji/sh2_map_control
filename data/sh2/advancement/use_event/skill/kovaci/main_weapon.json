@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "diamond",
+                    "components": {"custom_data": {"use_event":{"kovaci_gun":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/kovaci/main_weapon/fire/before_fire"
+    }
+}

@@ -1,0 +1,1 @@
+function sh2:process_control/battle/sec4/compass_menu/shadow/main_menu

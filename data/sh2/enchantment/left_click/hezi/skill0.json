@@ -7,6 +7,51 @@
                     "function": "sh2:char/hezi/main_weapon/main_weapon_attack"
                 }
             }
+        ],
+        "post_attack": [
+            {
+                "requirements":[
+                    {
+                        "condition": "entity_scores",
+                        "entity": "attacker",
+                        "scores": {
+                            "ENERGY": {"max": 29}
+                        }
+                    }
+                ],
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/hezi/main_weapon/weak_attack_victim"
+                }
+            },
+            {
+                "requirements": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "attacker",
+                        "scores": {
+                            "ENERGY": {"min": 30},
+                            "SAN": {"max": 20}
+                        }
+                    }
+                ],
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/hezi/main_weapon/enhanced_attack_regen"
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "attacker",
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/hezi/main_weapon/reduce_san"
+                }
+            }
         ]
     },
     "anvil_cost": 2,
@@ -24,7 +69,7 @@
         "any"
     ],
     "supported_items": [
-        "diamond_hoe"
+        "diamond"
     ],
     "weight": 5
 }

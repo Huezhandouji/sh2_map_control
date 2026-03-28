@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "赶路",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "点击这些按钮来传送"
+    },
+    "actions": [
+        {
+            "label": "主战场",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s -230.5 55 78.5"
+            }
+        },
+        {
+            "label": "回家",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 0 51 0"
+            }
+        },
+        {
+            "label": "影部署点",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 77.5 72.00 -123.5"
+            }
+        },
+        {
+            "label": "猎影人部署点",
+            "action": {
+                "type": "run_command",
+                "command": "tp @s 76.5 70.00 -220.5"
+            }
+        }
+    ]
+}
