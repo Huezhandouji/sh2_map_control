@@ -1,3 +1,6 @@
+execute as @e[tag=kovaci_mine_penal] at @s positioned ~ ~-1 ~ unless entity @e[tag=kovaci_mine,distance=..0.2] run kill @s
+execute as @e[tag=kovaci_mine_penal_interaction] at @s positioned ~ ~-1 ~ unless entity @e[tag=kovaci_mine,distance=..0.2] run kill @s 
+
 scoreboard players remove @s[scores={kovaci.cd2=1..}] kovaci.cd2 1
 execute if score @s kovaci.mine_store matches ..1 run scoreboard players add @s kovaci.mine_store_cd 1
 execute if score @s kovaci.mine_store_cd matches 2400 run function sh2:char/kovaci/skill_2/store

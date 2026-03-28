@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ccb":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "redstone",
+                    "components": {"custom_data": {"use_event":{"skill_red_2":true}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sh2:char/red/skill_2/use"
+    }
+}

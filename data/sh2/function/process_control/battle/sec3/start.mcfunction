@@ -3,6 +3,8 @@ scoreboard players set battle_phase system 3
 kill @e[type=text_display,tag=sec1_shadow]
 kill @e[type=text_display,tag=sec2_shadow]
 kill @e[type=text_display,tag=sec3_shadow]
+kill @e[type=text_display,tag=sec4_shadow]
+kill @e[type=text_display,tag=sec5_shadow]
 summon text_display 71 73.5 -127 {"text":[{"text":"§c别墅区\n敌方控制"}],"billboard":"center","see_through":true,Tags:["sec3_shadow","1"]}
 summon text_display 83 74.5 -128 {"text":[{"text":"§c小型失去\n敌方控制"}],"billboard":"center","see_through":true,Tags:["sec3_shadow","2"]}
 summon text_display 85 73.5 -134 {"text":[{"text":"§c暗影教堂\n敌方控制"}],"billboard":"center","see_through":true,Tags:["sec3_shadow","3"]}
@@ -16,6 +18,8 @@ execute as @e[tag=sec3_shadow,type=text_display,tag=!4_] run data modify entity 
 kill @e[type=text_display,tag=sec1_hunter]
 kill @e[type=text_display,tag=sec2_hunter]
 kill @e[type=text_display,tag=sec3_hunter]
+kill @e[type=text_display,tag=sec4_hunter]
+kill @e[type=text_display,tag=sec5_hunter]
 summon text_display 58 72 -218 {"text":[{"text":"§a别墅区\n友方控制"}],"billboard":"center","see_through":true,Tags:["sec3_hunter","1"]}
 summon text_display 69 72 -218 {"text":[{"text":"§a小型社区\n友方控制"}],"billboard":"center","see_through":true,Tags:["sec3_hunter","2"]}
 summon text_display 69 72 -224 {"text":[{"text":"§a暗影教堂\n友方控制"}],"billboard":"center","see_through":true,Tags:["sec3_hunter","3"]}

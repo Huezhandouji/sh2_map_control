@@ -1,0 +1,32 @@
+{
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/red/main_weapon/victim_run"
+                },
+                "enchanted": "attacker"
+            }
+        ]
+    },
+    "anvil_cost": 2,
+    "description": "red_main_weapon_attack",
+    "max_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "max_level": 1,
+    "slots": [
+        "any"
+    ],
+    "supported_items": [
+        "diamond"
+    ],
+    "weight": 5
+}
