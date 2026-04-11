@@ -1,0 +1,10 @@
+{
+    "comparator_output": 14,
+    "description": "NATIONAL FLAG ANTHEM OF R.O.C.",
+    "length_in_seconds": 84,
+    "sound_event": {
+        "sound_id": "sh2:extrabgm.national_flag_anthem",
+        "range": 16
+    }
+
+}

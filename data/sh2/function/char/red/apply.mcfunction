@@ -23,3 +23,4 @@ item replace entity @s armor.legs with leather_leggings[dyed_color=9633792,encha
 item replace entity @s armor.feet with leather_boots[dyed_color=3473408,enchantments={"binding_curse":1,"protection":1,"blast_protection":2},enchantment_glint_override=false]
 
 effect give @s instant_health 1 20 true
+#当玩家选择角色后，给予玩家装备和属性加成，并设置相关的计分板数据

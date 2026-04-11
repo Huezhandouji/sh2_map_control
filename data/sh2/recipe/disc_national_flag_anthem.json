@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " a ",
+        "bcd",
+        "ddd"
+    ],
+    "key": {
+        "a": "#sh2:music_discs",
+        "b": "white_dye",
+        "c": "blue_dye",
+        "d": "red_dye"        
+    },
+    "result": {
+        "id": "music_disc_5",
+        "count": 1,
+        "components": {
+            "item_model": "sh2:disc_national_flag_anthem",
+            "jukebox_playable": "sh2:national_flag_anthem"
+        }
+    }
+}
