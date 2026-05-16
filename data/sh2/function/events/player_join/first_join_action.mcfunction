@@ -11,12 +11,13 @@ scoreboard players set @s SAN_MAX 100
 scoreboard players set @s san_punish_countdown -1
 scoreboard players set @s ENERGY 100
 scoreboard players set @s ENERGY_MAX 100
-scoreboard players set @s EVOLUTION 0
+scoreboard players set @s EVO 0
 scoreboard players set @s apply_character 0
 scoreboard players set @s build_countdown -1
 scoreboard players set @s character 0
 scoreboard players set @s conditions 0
 scoreboard players set @s ex_selected 0
+scoreboard players set @s dead_detect 0
 
 scoreboard players set @s in_battle 0
 scoreboard players set @s faint_time -1

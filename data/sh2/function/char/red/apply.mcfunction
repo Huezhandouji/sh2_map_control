@@ -12,6 +12,8 @@ scoreboard objectives add red.skill1_count dummy red.skill1_count
 scoreboard players set @s red.skill1_count 0
 scoreboard objectives add red.cd2 dummy red.cd2
 scoreboard players set @s red.cd2 0
+scoreboard objectives add red.cd3 dummy red.cd3
+scoreboard players set @s red.cd3 0
 
 scoreboard players set @s SAN_MAX 100
 scoreboard players set @s SAN 100

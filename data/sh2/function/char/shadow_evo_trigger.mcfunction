@@ -1,0 +1,1 @@
+execute if score @s character matches 1 run function sh2:char/red/evolution/trigger

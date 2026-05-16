@@ -38,7 +38,11 @@ scoreboard objectives add ENERGY_MAX dummy ENERGY_MAX
 scoreboard objectives add SAN dummy SAN
 scoreboard objectives add SAN_MAX dummy SAN_MAX
 scoreboard objectives add san_punish_countdown dummy san_punish_countdown
-scoreboard objectives add EVOLUTION dummy EVOLUTION
+scoreboard objectives add EVO dummy EVO
+
+#死亡检测
+scoreboard objectives add dead_detect deathCount dead_detect
+
 #/特殊效果倒计时
 #//眩晕
 scoreboard objectives add faint_time dummy faint_time

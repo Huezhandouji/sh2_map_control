@@ -17,3 +17,5 @@ scoreboard players add 1_4s clock 1
 execute if score 1_4s clock matches 6 run scoreboard players set 1_4s clock 0
 
 effect give @a saturation infinite 255 true
+
+function sh2:player_kill/run

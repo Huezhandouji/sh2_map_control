@@ -12,11 +12,8 @@ scoreboard players remove @s[scores={hezi.cd2=1..}] hezi.cd2 1
 scoreboard players remove @s[scores={hezi.cd3=1..}] hezi.cd3 1
 #由于二技能不能在一刻内执行完，所以使用一个不断递减的积分板，当判断到特定分数时执行每一段
 
-#当选择的栏位是 hotbar.0 到 3时，显示一个actionbar的ui
-execute if entity @s[nbt={"SelectedItemSlot":0}] run function sh2:char/hezi/actionbar_ui
-execute if entity @s[nbt={"SelectedItemSlot":1}] run function sh2:char/hezi/actionbar_ui
-execute if entity @s[nbt={"SelectedItemSlot":2}] run function sh2:char/hezi/actionbar_ui
-execute if entity @s[nbt={"SelectedItemSlot":3}] run function sh2:char/hezi/actionbar_ui
+#显示actionbar的ui
+function sh2:char/hezi/actionbar_ui
 
 #被动
 execute if score @s SAN matches ..100 run effect give @s strength 1 0 true

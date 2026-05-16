@@ -1,3 +1,6 @@
+#如进化够了5就把下面的逻辑截掉，直接运行一秒流3层的
+execute if score @s EVO matches 5.. run return run function sh2:char/red/passivity/evo_deal_bleed
+
 scoreboard players set @s[scores={red.bleed=16..}] red.bleed 15
 scoreboard players remove @s red.bleed 1
 damage @s 2 sh2:true by @a[tag=red,limit=1]

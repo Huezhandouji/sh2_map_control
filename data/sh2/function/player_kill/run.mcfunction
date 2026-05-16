@@ -1,0 +1,1 @@
+execute as @a[scores={dead_detect=1..}] at @s run function sh2:player_kill/dead_player_execute

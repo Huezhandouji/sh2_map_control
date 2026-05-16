@@ -9,3 +9,4 @@ scoreboard objectives remove red.cd0
 scoreboard objectives remove red.cd1
 scoreboard objectives remove red.skill1_count
 scoreboard objectives remove red.cd2
+scoreboard objectives remove red.cd3
