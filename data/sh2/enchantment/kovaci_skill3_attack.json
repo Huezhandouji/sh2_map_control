@@ -1,0 +1,52 @@
+{
+    "effects": {
+        "post_attack": [
+            {
+                "affected": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "sh2:char/kovaci/skill_3/victim_run"
+                },
+                "enchanted": "attacker"
+            },
+            {
+                "affected": "victim",
+                "effect": {
+                    "type": "explode",
+                    "large_particle":{
+                        "type": "explosion"
+                    },
+                    "small_particle":{
+                        "type": "explosion"
+                    },
+                    "radius": 12,
+                    "sound": {
+                        "sound_id": "minecraft:entity.generic.explode"
+                    },
+                    "attribute_to_user": true,
+                    "damage_type": "explosion",
+                    "block_interaction": "none"
+                },
+                "enchanted": "attacker"
+            }
+        ]
+    },
+    "anvil_cost": 2,
+    "description": "kovaci_explode_knife_attack",
+    "max_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 2
+    },
+    "max_level": 1,
+    "slots": [
+        "any"
+    ],
+    "supported_items": [
+        "iron_sword"
+    ],
+    "weight": 5
+}
