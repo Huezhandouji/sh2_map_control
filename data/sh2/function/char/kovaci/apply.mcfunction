@@ -23,6 +23,9 @@ scoreboard objectives add kovaci.mine_store_cd dummy mine_store_cd
 scoreboard players set @s kovaci.mine_store_cd 0
 scoreboard objectives add kovaci.uuid_check dummy kovaci.uuid_check
 
+scoreboard objectives add kovaci.cd3 dummy kovaci.cd3
+scoreboard players set @s kovaci.cd3 0
+
 scoreboard players set @s SAN_MAX 100
 scoreboard players set @s SAN 100
 scoreboard players set @s ENERGY_MAX 150
